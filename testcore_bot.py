@@ -1,11 +1,14 @@
 
 
+
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import requests, random
 import datetime
 from telegram import BotCommand, BotCommandScopeChat
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 otp_store = {}  
 OTP_VALIDITY_SECONDS = 120

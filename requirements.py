@@ -1,0 +1,13 @@
+anyio==4.9.0
+certifi==2025.7.14
+charset-normalizer==3.4.2
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.10
+python-dotenv==1.1.1
+python-telegram-bot==22.3
+requests==2.32.4
+sniffio==1.3.1
+typing_extensions==4.14.1
+urllib3==2.5.0
