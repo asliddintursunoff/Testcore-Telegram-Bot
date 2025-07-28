@@ -1,18 +1,37 @@
 # Python
 __pycache__/
 *.py[cod]
-*.so
-*.egg
 *.egg-info/
+*.egg
 *.pyo
 *.pyd
- 
-# Environment
-.env
-.env.*
 
-# Virtualenv
+# Virtual environment
 env/
 venv/
-ENV/
-.venv/
+
+# Environment variables
+.env
+
+# IDE/editor settings
+.vscode/
+*.swp
+*.swo
+
+# Byte-compiled / backup files
+*.bak
+*.tmp
+
+# Logs and DBs
+*.log
+*.sqlite3
+
+# Build
+build/
+dist/
+*.tar.gz
+*.whl
+
+# macOS and Linux
+.DS_Store
+Thumbs.db
