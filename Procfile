@@ -1,1 +1,1 @@
-telegram_bot: python testcore_bot.py
+worker: python testcore_bot.py
